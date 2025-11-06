@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "445d36ef-9d5b-4cc8-8450-6fb8481c88fd",
+		"name": "belajar_node.js",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47980485",
+		"_collection_link": "https://intrhmsfr-9405215.postman.co/workspace/Sa-Fira's-Workspace~1c99619b-7650-4687-8e53-e06470e184c0/collection/47980485-445d36ef-9d5b-4cc8-8450-6fb8481c88fd?action=share&source=collection_link&creator=47980485"
+	},
+	"item": [
+		{
+			"name": "percobaan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\": \"Avengers\",\r\n        \"director\": \"Peter Jackson\",\r\n        \"year\": 2010\r\n        }\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "percobban1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tugas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tugas1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tugas2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tugas3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
